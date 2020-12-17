@@ -1,6 +1,14 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+// vars
+@import "partials/vars";
 
+// generals
+@import "partials/generals";
+
+// utilities
+@import "partials/utilities";
+
+// header
+@import "partials/header";
+
+// main
+@import "partials/main";
