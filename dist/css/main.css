@@ -6,6 +6,7 @@
 
 body {
   font-family: "Lato", sans-serif;
+  color: white;
 }
 
 .container {
@@ -49,20 +50,50 @@ body {
   flex-wrap: wrap;
 }
 
-header {
-  background-color: #00202c;
+.p-relative {
+  position: relative;
 }
 
-header img {
+.p-absolute {
+  position: absolute;
+}
+
+.p-fixed {
+  position: fixed;
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+.z-2 {
+  z-index: 2;
+}
+
+header .header-nav {
+  background-color: #00202c;
+  width: 100vw;
+}
+
+header .header-nav img {
   width: 60px;
   padding: 10px 0px;
 }
 
 main {
   background-color: #002536;
+  height: 100vh;
+  padding-top: 100px;
 }
 
-main img {
+main .album-wrap .album-box {
+  background-color: #000d13;
+  padding: 15px 10px;
+  align-items: center;
+  text-align: center;
+}
+
+main .album-wrap .album-box img {
   height: 170px;
   max-width: 170px;
 }

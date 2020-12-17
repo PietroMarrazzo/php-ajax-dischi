@@ -1,8 +1,11 @@
 header {
-    background-color: $header-bg-color;
-
-    img {
-        width: 60px;
-        padding: 10px 0px;
-    }
+    .header-nav {
+        background-color: $header-bg-color;
+        width: 100vw;
+        
+        img {
+            width: 60px;
+            padding: 10px 0px;
+        }
+    }   
 }

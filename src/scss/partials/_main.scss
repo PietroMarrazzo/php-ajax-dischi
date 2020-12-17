@@ -1,8 +1,18 @@
 main {
     background-color: $main-bg-color;
-
-    img {
-        height: 170px;
-        max-width: 170px;
+    height: 100vh;
+    padding-top: 100px;
+    .album-wrap {
+        .album-box {
+            background-color: $album-box-bg-color;
+            padding: 15px 10px;
+            align-items: center;
+            text-align: center;
+            img {
+                height: 170px;
+                max-width: 170px;
+            }
+        }
     }
+    
 }
