@@ -11,7 +11,7 @@
 <body>
    <header>
        <div class="container">
-            <img src="" alt="logo spotify">
+            <img src="./dist/img/logo.png" alt="logo spotify">
        </div>
    </header> 
    

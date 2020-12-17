@@ -8,6 +8,11 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
 .d-flex {
   display: flex;
 }
@@ -42,5 +47,23 @@ body {
 
 .wrap {
   flex-wrap: wrap;
+}
+
+header {
+  background-color: #00202c;
+}
+
+header img {
+  width: 60px;
+  padding: 10px 0px;
+}
+
+main {
+  background-color: #002536;
+}
+
+main img {
+  height: 170px;
+  max-width: 170px;
 }
 
