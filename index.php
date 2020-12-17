@@ -23,7 +23,7 @@
             <?php foreach ($database as $key => $album) { ?>
                 <div class="album-box d-flex flex-col">
                     <!-- info albums -->
-                    <img src="<?php echo $album['title']?>" alt="">
+                    <img src="<?php echo $album['poster']?>" alt="">
                     <h3>
                         <?php echo $album['title'];
                         ?>
