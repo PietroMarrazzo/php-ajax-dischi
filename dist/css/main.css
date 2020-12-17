@@ -91,10 +91,28 @@ main .album-wrap .album-box {
   padding: 15px 10px;
   align-items: center;
   text-align: center;
+  margin: 20px 50px;
+  flex-basis: 22%;
 }
 
 main .album-wrap .album-box img {
   height: 170px;
   max-width: 170px;
+  margin-bottom: 15px;
+}
+
+main .album-wrap .album-box h3,
+main .album-wrap .album-box h5 {
+  padding: 7px 5px;
+}
+
+main .album-wrap .album-box .light-weight {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+main .album-wrap .album-box .main-weight {
+  font-weight: 700;
+  font-size: 18px;
 }
 

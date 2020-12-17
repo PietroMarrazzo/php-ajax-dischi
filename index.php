@@ -20,32 +20,32 @@
    <main>
         <!-- import database album -->
         <?php require_once __DIR__ . './database.php' ?>
-        <div class="album-wrap d-flex flex-col wrap">
-            <div class="d-flex container">
+        <div class="album-wrap d-flex flex-col">
+            <ul class="d-flex container wrap">
                 <!-- generating album cycle -->
                 <?php foreach ($database as $key => $album) { ?>
-                    <div class="album-box d-flex flex-col">
+                    <li class="album-box d-flex flex-col">
                         <!-- info albums -->
                         <img src="<?php echo $album['poster']?>" alt="">
-                        <h3>
+                        <h3 class="main-weight">
                             <?php echo $album['title'];
                             ?>
                         </h3>
-                        <h5>
+                        <h5 class="light-weight">
                             <?php echo $album['author'];
                             ?>
                         </h5>
-                        <h3>
+                        <h3 class="main-weight">
                             <?php echo $album['year'];
                             ?>
                         </h3>
-                        <h3>
+                        <h3 class="light-weight">
                             <?php echo $album['genre'];
                             ?>
                         </h3>
-                    </div>
+                </li>
                 <?php } ?>
-            </div>
+            </ul>
         </div>
    </main> 
 </body>
