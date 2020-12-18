@@ -5,7 +5,7 @@ const app = new Vue({
     el: '#app',
 
     data: {
-
+        albums: [],
     },
 
     created() {
@@ -14,6 +14,7 @@ const app = new Vue({
         .then(response => {
             // handle success
             console.log(response.data);
+            this.albums = response.data;
         })
         .catch(error => {
             // handle error

@@ -14422,12 +14422,17 @@ __webpack_require__.r(__webpack_exports__);
 
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app',
-  data: {},
+  data: {
+    albums: []
+  },
   created: function created() {
+    var _this = this;
+
     // get album from server
     axios__WEBPACK_IMPORTED_MODULE_1___default.a.get('http://localhost/php-ajax-dischi/data/database-ajax.php').then(function (response) {
       // handle success
       console.log(response.data);
+      _this.albums = response.data;
     })["catch"](function (error) {
       // handle error
       console.log(error);
